@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    compile 'org.hibernate:hibernate-entitymanager:4.1.6.Final'
+    compile 'org.hsqldb:hsqldb:2.2.8'
+    testCompile 'junit:junit:4.12'
+}

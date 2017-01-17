@@ -6,7 +6,8 @@
 
       <description>HSQLDB Persistence Unit</description>
       <provider>org.hibernate.ejb.HibernatePersistence</provider>
-      <class>org.ocpsoft.example.hibernate.model.SimpleObject</class>
+      <class>org.ocpsoft.example.hibernate.model.Person</class>
+      <class>org.ocpsoft.example.hibernate.model.Address</class>
 
       <properties>
          <property name="javax.persistence.jdbc.driver" value="org.hsqldb.jdbcDriver" />
